@@ -63,7 +63,6 @@
     sprite: _Crescent/Clothing/Corpo/Head/corvid.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Corpo/Head/corvid.rsi
-  - type: DegradeableArmor
   - type: Armor
     modifiers:
       coefficients:
@@ -208,7 +207,7 @@
     sprite: _Crescent/Clothing/Corpo/OuterClothing/pangtaivest.rsi
   - type: DegradeableArmor
     armorMaxHealth: 1500
-    armorType: Metallic
+    armorType: Ceramic
     armorRepair: PlasteelEncasedKevlar
     initialModifiers:
       flatReductions:
