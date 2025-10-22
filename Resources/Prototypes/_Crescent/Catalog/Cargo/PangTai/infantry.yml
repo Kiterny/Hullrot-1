@@ -258,6 +258,15 @@
   category: cargoproduct-category-name-military
   group: pangtai
 
+- type: cargoProduct
+  id: ShipVoucherMusashi
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: base
+  product: ShipVoucherMusashi
+  cost: 350000
+  category: cargoproduct-category-name-military
+  group: pangtai
 
 #- type: cargoProduct
 #  id: KevlarPangTai

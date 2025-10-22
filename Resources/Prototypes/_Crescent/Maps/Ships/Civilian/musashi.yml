@@ -1,0 +1,35 @@
+# Author Info
+# Discord: yourDiscordHere, if you want
+
+#this prototype represents the info needed for your ship to be purchasable from a shipyard console, or spawnable fron an LPC. this is neccessary
+- type: vessel
+  id: Musashi #internal ID. must match ship name by convention
+  name: PTA Musashi # this is the name visible on the shipyard console
+  description: Its expensive better be worth it.
+  price: 350000 #this price should be higher than what the ship sells for by 25%
+  category: Large #does not matter 
+  group: None
+  path: /Maps/_Crescent/Shuttles/Civilian/musashi.yml
+#this prototype is mandatory and decides what info and components your ship spawns with ingame, regardless of how.
+- type: gameMap
+  id: Musashi  #must be one word. convention is to be the ship's name but capitalized, like Vanguard or Ibis.
+  mapName: 'PTA Flybetter' #this doesn't ship up ingame but still needs to match the ship's name below.
+  mapPath: /Maps/_Crescent/Shuttles/Civilian/musashi.yml
+  minPlayers: 0
+  stations:
+     Musashi: #THIS MUST MATCH THE ID ABOVE!
+      stationProto: StandardCrescentVessel #StandardCrescentVessel for ships, FlagshipCrescentVessel for ships that can spawn reinforcement players, and StandardCrescentPOI for points of interest, derelicts, or none of the above.
+      components: #these components will be attached to the STATION. 
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: battleship
+        - type: StationNameSetup
+          mapNameTemplate: 'PTA Musashi {1}' #this decides your ship's name ingame
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-warship #there are a few. look for em yourself
+        - type: VesselDescription
+          description: Prestine PTA warship. One of the biggest on the market.
