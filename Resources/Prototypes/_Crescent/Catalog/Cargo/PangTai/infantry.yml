@@ -261,7 +261,7 @@
 - type: cargoProduct
   id: ShipVoucherMusashi
   icon:
-    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    sprite: Textures/_Crescent/Objects/Misc/lpcchip.rsi
     state: base
   product: ShipVoucherMusashi
   cost: 350000
