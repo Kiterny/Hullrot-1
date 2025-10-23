@@ -364,3 +364,16 @@
   name: British Sea Power - Whirling-In-Rags
   path:
     path: "/Audio/_Crescent/Jukebox/WhirlingInRags.ogg"
+
+- type: jukebox
+  id: Payday_DeathWish
+  name: Payday - Death Wish
+  path:
+    path: "/Audio/_Crescent/Jukebox/Payday_DeathWish.ogg"
+    
+- type: jukebox
+  id: FDJifaWartburg
+  name: FDJ - IFA Warthburg
+  path:
+    path: "/Audio/_Crescent/Jukebox/FDJifaWartburg.ogg"
+
