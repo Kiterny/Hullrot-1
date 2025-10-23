@@ -401,4 +401,10 @@
   path:
     path: "/Audio/_Crescent/Jukebox/AdamMateuszBrożyński_PiosenkaoPrzekonaniach.ogg"
     
+- type: jukebox
+  id: Finity'sEnd_SongsfromtheStars
+  name: Finity's End - Songs from the Stars
+  path:
+    path: "/Audio/_Crescent/Jukebox/Finity'sEnd_SongsfromtheStars.ogg"
+    
 
