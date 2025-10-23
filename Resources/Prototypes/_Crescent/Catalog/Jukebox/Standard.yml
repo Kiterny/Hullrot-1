@@ -376,4 +376,29 @@
   name: FDJ - IFA Warthburg
   path:
     path: "/Audio/_Crescent/Jukebox/FDJifaWartburg.ogg"
+    
+- type: jukebox
+  id: Афган_ВалерийПетряев
+  name: Afgan - Афган
+  path:
+    path: "/Audio/_Crescent/Jukebox/Афган_ВалерийПетряев.ogg"
+    
+- type: jukebox
+  id: MolchatDomaСудно
+  name: Molchat Doma - Судно
+  path:
+    path: "/Audio/_Crescent/Jukebox/MolchatDomaСудно.ogg"
+    
+- type: jukebox
+  id: LubehDavaiДавайзаrg
+  name: Lubeh - Davai za
+  path:
+    path: "/Audio/_Crescent/Jukebox/LubehDavaiДавайза.ogg"
+    
+- type: jukebox
+  id: AdamMateuszBrożyński_PiosenkaoPrzekonaniach
+  name: Adam Mateusz Brożyński - Piosenkao Przekonaniach
+  path:
+    path: "/Audio/_Crescent/Jukebox/AdamMateuszBrożyński_PiosenkaoPrzekonaniach.ogg"
+    
 
