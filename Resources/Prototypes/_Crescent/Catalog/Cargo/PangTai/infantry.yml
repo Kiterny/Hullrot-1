@@ -261,8 +261,8 @@
 - type: cargoProduct
   id: ShipVoucherMusashi
   icon:
-    sprite: Textures/_Crescent/Objects/Misc/lpcchip.rsi
-    state: base
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
   product: ShipVoucherMusashi
   cost: 350000
   category: cargoproduct-category-name-military
