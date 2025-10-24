@@ -480,10 +480,10 @@
     path: "/Audio/_Crescent/Jukebox/CarrionRadiance.ogg"
     
 - type: jukebox
-  id: polina
+  id: Polina
   name: Polina
   path:
-    path: "/Audio/_Crescent/Jukebox/polina.ogg"
+    path: "/Audio/_Crescent/Jukebox/Polina.ogg"
     
 - type: jukebox
   id: KGBHQ
@@ -498,10 +498,10 @@
     path: "/Audio/_Crescent/Jukebox/burning_world.ogg"
     
 - type: jukebox
-  id: beforethestorm
+  id: Beforethestorm
   name: Before the storm
   path:
-    path: "/Audio/_Crescent/Jukebox/beforethestorm.ogg"
+    path: "/Audio/_Crescent/Jukebox/Beforethestorm.ogg"
     
 - type: jukebox
   id: Blackburn
