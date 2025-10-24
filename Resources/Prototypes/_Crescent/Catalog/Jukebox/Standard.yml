@@ -391,7 +391,7 @@
     
 - type: jukebox
   id: LubehDavaiДавайзаrg
-  name: Lubeh - Davai za
+  name: Lubeh - Davai za 
   path:
     path: "/Audio/_Crescent/Jukebox/LubehDavaiДавайза.ogg"
     
@@ -433,7 +433,7 @@
     
 - type: jukebox
   id: MarkBernes_ТёмнаяНочь
-  name: Mark Bernes - Тёмная Ночь
+  name: Mark Bernes - Тёмная Ночь (Dark night)
   path:
     path: "/Audio/_Crescent/Jukebox/MarkBernes_ТёмнаяНочь.ogg"
     
@@ -454,3 +454,15 @@
   name: Emberek - Wind carries the skies far away
   path:
     path: "/Audio/_Crescent/Jukebox/Emberek_Windcarriestheskiesfaraway.ogg"
+    
+- type: jukebox
+  id: TheAnimals_HouseOfTheRisingSun
+  name: The Animals - House Of The Rising Sun
+  path:
+    path: "/Audio/_Crescent/Jukebox/TheAnimals_HouseOfTheRisingSun.ogg"
+    
+- type: jukebox
+  id: CaliforniaDreamin_TheMamas&ThePapas
+  name: California Dreamin - The Mamas & The Papas
+  path:
+    path: "/Audio/_Crescent/Jukebox/CaliforniaDreamin_TheMamas&ThePapas.ogg"
