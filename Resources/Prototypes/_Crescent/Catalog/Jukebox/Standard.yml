@@ -466,3 +466,15 @@
   name: California Dreamin - The Mamas & The Papas
   path:
     path: "/Audio/_Crescent/Jukebox/CaliforniaDreamin_TheMamas&ThePapas.ogg"
+    
+- type: jukebox
+  id: Megapolitian
+  name: Megapolitian
+  path:
+    path: "/Audio/_Crescent/Jukebox/Megapolitian.ogg"
+    
+- type: jukebox
+  id: CarrionRadiance
+  name: Carrion Radiance 
+  path:
+    path: "/Audio/_Crescent/Jukebox/CarrionRadiance.ogg"
