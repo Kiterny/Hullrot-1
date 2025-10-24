@@ -442,4 +442,15 @@
   name: Vesyolye Rebyata - Cars
   path:
     path: "/Audio/_Crescent/Jukebox/VesyolyeRebyata_Cars.ogg"
-
+    
+- type: jukebox
+  id: BrigadorKillers_StrangeBedfellows
+  name: Brigador Killers - Strange Bedfellows
+  path:
+    path: "/Audio/_Crescent/Jukebox/BrigadorKillers_StrangeBedfellows.ogg"
+    
+- type: jukebox
+  id: Emberek_Windcarriestheskiesfaraway
+  name: Emberek - Wind carries the skies far away
+  path:
+    path: "/Audio/_Crescent/Jukebox/Emberek_Windcarriestheskiesfaraway.ogg"
