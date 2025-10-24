@@ -478,3 +478,33 @@
   name: Carrion Radiance 
   path:
     path: "/Audio/_Crescent/Jukebox/CarrionRadiance.ogg"
+    
+- type: jukebox
+  id: polina
+  name: polina
+  path:
+    path: "/Audio/_Crescent/Jukebox/polina.ogg"
+    
+- type: jukebox
+  id: KGBHQ
+  name: KGBHQ
+  path:
+    path: "/Audio/_Crescent/Jukebox/KGBHQ.ogg"
+    
+- type: jukebox
+  id: burning_world
+  name: Burning world
+  path:
+    path: "/Audio/_Crescent/Jukebox/burning_world.ogg"
+    
+- type: jukebox
+  id: beforethestorm
+  name: before the storm
+  path:
+    path: "/Audio/_Crescent/Jukebox/beforethestorm.ogg"
+    
+- type: jukebox
+  id: Blackburn
+  name: Blackburn
+  path:
+    path: "/Audio/_Crescent/Jukebox/Blackburn.ogg"
