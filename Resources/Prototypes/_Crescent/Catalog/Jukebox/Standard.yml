@@ -481,7 +481,7 @@
     
 - type: jukebox
   id: polina
-  name: polina
+  name: Polina
   path:
     path: "/Audio/_Crescent/Jukebox/polina.ogg"
     
@@ -499,7 +499,7 @@
     
 - type: jukebox
   id: beforethestorm
-  name: before the storm
+  name: Before the storm
   path:
     path: "/Audio/_Crescent/Jukebox/beforethestorm.ogg"
     
