@@ -407,4 +407,39 @@
   path:
     path: "/Audio/_Crescent/Jukebox/Finity'sEnd_SongsfromtheStars.ogg"
     
+- type: jukebox
+  id: KennyLoggins_DangerZone
+  name: Kenny Loggins - Danger Zone
+  path:
+    path: "/Audio/_Crescent/Jukebox/KennyLoggins_DangerZone.ogg"
+    
+- type: jukebox
+  id: Payday_ThisIsOurTime
+  name: Payday - This Is Our Time
+  path:
+    path: "/Audio/_Crescent/Jukebox/Payday_ThisIsOurTime.ogg"
+    
+- type: jukebox
+  id: HighwayStar
+  name: Highway Star
+  path:
+    path: "/Audio/_Crescent/Jukebox/HighwayStar.ogg"
+    
+- type: jukebox
+  id: EVAKUArsenal_Alightflashesinthedark
+  name: EVAKU Arsenal - A light flashes in the dark
+  path:
+    path: "/Audio/_Crescent/Jukebox/EVAKUArsenal_Alightflashesinthedark.ogg"
+    
+- type: jukebox
+  id: MarkBernes_ТёмнаяНочь
+  name: Mark Bernes - Тёмная Ночь
+  path:
+    path: "/Audio/_Crescent/Jukebox/MarkBernes_ТёмнаяНочь.ogg"
+    
+- type: jukebox
+  id: VesyolyeRebyata_Cars
+  name: Vesyolye Rebyata - Cars
+  path:
+    path: "/Audio/_Crescent/Jukebox/VesyolyeRebyata_Cars.ogg"
 
