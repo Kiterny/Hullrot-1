@@ -107,20 +107,6 @@
     Steel: 900
 
 - type: latheRecipe
-  id: MagazineCaselessRifleShort
-  result: MagazineCaselessRifleShort
-  completetime: 1
-  materials:
-    Steel: 300
-
-- type: latheRecipe
-  id: MagazineCaselessRifle
-  result: MagazineCaselessRifle
-  completetime: 1
-  materials:
-    Steel: 400
-
-- type: latheRecipe
   id: Magazine6x24mmShock 
   result: Magazine6x24mmShock
   completetime: 1
@@ -269,18 +255,18 @@
 
 # SMALL ARMS AMMUNITIONS 
 - type: latheRecipe
-  id: MagazineBoxPistol6mm
-  result: MagazineBoxPistol6mm
-  completetime: 1
-  materials:
-    Steel: 500
-
-- type: latheRecipe
   id: MagazinePistolCaselessRifle
   result: MagazinePistolCaselessRifle
   completetime: 1
   materials:
     Steel: 200
+
+- type: latheRecipe
+  id: MagazineBoxPistol6mm
+  result: MagazineBoxPistol6mm
+  completetime: 1
+  materials:
+    Steel: 500
 
 - type: latheRecipe
   id: MagazinePistolHeavy
