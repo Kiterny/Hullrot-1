@@ -125,40 +125,44 @@
   result: Magazine6x24mmShock
   completetime: 1
   materials:
-    Steel: 200
-    Plastic: 100
+    Steel: 600
+    Plastic: 600
+    Plasma: 500
 
 - type: latheRecipe
   id: Magazine6x24mmIncendiary  
   result: Magazine6x24mmIncendiary
   completetime: 1
   materials:
-    Steel: 300
-    Plastic: 300
+    Steel: 400
+    Plastic: 600
 
 - type: latheRecipe 
   id: Magazine6x24mmIon  
   result: Magazine6x24mmIon
   completetime: 1
   materials:
-    Steel: 300
+    Steel: 400
     Plastic: 600
+    Uranium: 800
 
 - type: latheRecipe
   id: Magazine6x24mmConcentrated 
   result: Magazine6x24mmConcentrated
   completetime: 1
   materials:
-    Steel: 300
+    Steel: 400
     Plastic: 150
+    Uranium: 500
 
 - type: latheRecipe
   id: Magazine6x24mmCharge
   result: Magazine6x24mmCharge
   completetime: 1
   materials:
-    Steel: 300
+    Steel: 400
     Plastic: 100
+    Uranium: 300
 
 - type: latheRecipe
   id: CartridgeRailgun15mmAP
