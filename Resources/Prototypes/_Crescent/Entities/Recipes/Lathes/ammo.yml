@@ -255,13 +255,6 @@
 
 # SMALL ARMS AMMUNITIONS 
 - type: latheRecipe
-  id: MagazinePistolCaselessRifle
-  result: MagazinePistolCaselessRifle
-  completetime: 1
-  materials:
-    Steel: 200
-
-- type: latheRecipe
   id: MagazineBoxPistol6mm
   result: MagazineBoxPistol6mm
   completetime: 1
