@@ -189,6 +189,20 @@
     Plastic: 100
     #tungston if added - possibly replacing Uranium
 
+- type: latheRecipe
+  id: MagazineCaselessRifleShort
+  result: MagazineCaselessRifleShort
+  completetime: 1
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  id: MagazineCaselessRifle
+  result: MagazineCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 400
+
 # 4 GAUGE SHELLS
 - type: latheRecipe
   id: BoxShotgunIncendiary4g
@@ -251,21 +265,6 @@
   completetime: 2
   materials:
     Steel: 400
-	
-- type: latheRecipe
-  id: MagazineCaselessRifleShort
-  result: MagazineCaselessRifleShort
-  completetime: 1
-  materials:
-    Steel: 300
-
-- type: latheRecipe
-  id: MagazineCaselessRifle
-  result: MagazineCaselessRifle
-  completetime: 1
-  materials:
-    Steel: 400
-
 # SMALL ARMS AMMUNITIONS 
 - type: latheRecipe
   id: MagazinePistolCaselessRifle
