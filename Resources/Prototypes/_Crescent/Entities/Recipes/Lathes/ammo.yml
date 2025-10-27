@@ -1,4 +1,3 @@
-
 # RIFLE AMMUNITIONS 
 - type: latheRecipe
   id: DrumMagazineShotgunEmpty
@@ -252,8 +251,29 @@
   completetime: 2
   materials:
     Steel: 400
+	
+- type: latheRecipe
+  id: MagazineCaselessRifleShort
+  result: MagazineCaselessRifleShort
+  completetime: 1
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  id: MagazineCaselessRifle
+  result: MagazineCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 400
 
 # SMALL ARMS AMMUNITIONS 
+- type: latheRecipe
+  id: MagazinePistolCaselessRifle
+  result: MagazinePistolCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 200
+
 - type: latheRecipe
   id: MagazineBoxPistol6mm
   result: MagazineBoxPistol6mm

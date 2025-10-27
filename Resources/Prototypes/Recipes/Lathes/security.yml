@@ -264,13 +264,6 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
-  id: MagazinePistolCaselessRifle
-  result: MagazinePistolCaselessRifle
-  materials:
-    Steel: 145
-
-- type: latheRecipe
-  parent: BaseAmmoRecipe
   id: MagazinePistolCaselessRifleRubber
   result: MagazinePistolCaselessRifleRubber
   materials:
@@ -286,13 +279,6 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
-  id: MagazineCaselessRifleShort
-  result: MagazineCaselessRifleShort
-  materials:
-    Steel: 250
-
-- type: latheRecipe
-  parent: BaseAmmoRecipe
   id: MagazineCaselessRifleShortRubber
   result: MagazineCaselessRifleShortRubber
   materials:
@@ -305,13 +291,6 @@
   result: MagazineCaselessRiflePractice
   materials:
     Steel: 250
-
-- type: latheRecipe
-  parent: BaseAmmoRecipe
-  id: MagazineCaselessRifle
-  result: MagazineCaselessRifle
-  materials:
-    Steel: 350
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
