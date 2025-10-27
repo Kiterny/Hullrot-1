@@ -183,3 +183,24 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleShrapnel
+    
+- type: entity
+  parent: BaseMagazineBoxLightRifle
+  id: MagazineBoxLightSmart12mm
+  name: bulk ammunition box (12mm)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 100
+    proto: CartridgePistol12mm
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+

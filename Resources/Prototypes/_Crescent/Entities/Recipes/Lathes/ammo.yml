@@ -1,12 +1,19 @@
 
-# RIFLE AMMUNITIONS
-
+# RIFLE AMMUNITIONS 
 - type: latheRecipe
   id: DrumMagazineShotgunEmpty
   result: DrumMagazineShotgunEmpty
   completetime: 1
   materials:
     Steel: 100
+
+- type: latheRecipe
+  id: MagazineBoxLightSmart12mm
+  result: MagazineBoxLightSmart12mm
+  completetime: 1
+  materials:
+    Steel: 3750
+    Uranium: 2000
 
 - type: latheRecipe
   id: DrumMagazineShotgunBuck
@@ -53,7 +60,7 @@
   completetime: 1
   materials:
     Steel: 1250
-    Uranium: 400
+    Uranium: 600
 
 - type: latheRecipe
   id: MagazineBoxLightRifleBig
@@ -98,6 +105,96 @@
   completetime: 1
   materials:
     Steel: 900
+    
+- type: latheRecipe
+  id: MagazineCaselessRifle
+  result: MagazineCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 300
+    
+- type: latheRecipe
+  id: MagazineCaselessRifleShort
+  result: MagazineCaselessRifleShort
+  completetime: 1
+  materials:
+    Steel: 200
+
+- type: latheRecipe
+  id: Magazine6x24mmShock #this one is none harm option
+  result: Magazine6x24mmShock
+  completetime: 1
+  materials:
+    Steel: 200
+    Plastic: 100
+
+- type: latheRecipe
+  id: Magazine6x24mmIncendiary  # 15heat 10pierce
+  result: Magazine6x24mmIncendiary
+  completetime: 1
+  materials:
+    Steel: 300
+    Plastic: 300
+
+- type: latheRecipe 
+  id: Magazine6x24mmIon  #this amo is the best when fighting any armored person
+  result: Magazine6x24mmIon
+  completetime: 1
+  materials:
+    Steel: 300
+    Plastic: 600
+
+- type: latheRecipe
+  id: Magazine6x24mmConcentrated #main 6x24 +
+  result: Magazine6x24mmConcentrated
+  completetime: 1
+  materials:
+    Steel: 300
+    Plastic: 150
+
+- type: latheRecipe
+  id: Magazine6x24mmCharge #main 6x24
+  result: Magazine6x24mmCharge
+  completetime: 1
+  materials:
+    Steel: 300
+    Plastic: 100
+
+- type: latheRecipe
+  id: CartridgeRailgun15mmAP
+  result: CartridgeRailgun15mmAP
+  completetime: 1
+  materials:
+    Steel: 100
+    Uranium: 150
+    #tungston if added - possibly replacing Uranium
+
+- type: latheRecipe
+  id: CartridgeRailgun15mmDU
+  result: CartridgeRailgun15mmDU
+  completetime: 1
+  materials:
+    Steel: 200
+    Uranium: 300
+    #tungston if added - possibly replacing Uranium
+
+- type: latheRecipe
+  id: MagazineRailgun15mmAP
+  result: MagazineRailgun15mmAP
+  completetime: 1
+  materials:
+    Steel: 500
+    Uranium: 600
+    #tungston if added - possibly replacing Uranium
+
+- type: latheRecipe
+  id: MagazineRailgun15mmDU
+  result: MagazineRailgun15mmDU
+  completetime: 1
+  materials:
+    Steel: 700
+    Uranium: 1200
+    #tungston if added - possibly replacing Uranium
 
 # 4 GAUGE SHELLS
 - type: latheRecipe
@@ -162,7 +259,21 @@
   materials:
     Steel: 400
 
-# SMALL ARMS AMMUNITIONS
+# SMALL ARMS AMMUNITIONS 
+- type: latheRecipe
+  id: MagazineBoxPistol6mm
+  result: MagazineBoxPistol6mm
+  completetime: 1
+  materials:
+    Steel: 500
+
+- type: latheRecipe
+  id: MagazinePistolCaselessRifle
+  result: MagazinePistolCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 200
+
 - type: latheRecipe
   id: MagazinePistolHeavy
   result: MagazinePistolHeavy
@@ -317,3 +428,5 @@
   materials:
     Steel: 500
     Gold: 500
+    
+

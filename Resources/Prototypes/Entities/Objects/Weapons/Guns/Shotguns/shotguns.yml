@@ -70,7 +70,7 @@
   name: PTA MOD-2 Pozhar 12g  
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBulldog
-  description: A tube-fed, fully automatic, combat shotgun designed for close quarters combat. Loads shells one by one. Uses 12 gauge shotgun shells.
+  description: It's a magazine-fed shotgun designed for close-quarters combat. The magazine appears to be welded in. Uses 12 gauge shotgun shells. #it doesnt really matter but I feel like the sprite looks like it has magazine. 
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Guns/pozhar.rsi
@@ -100,7 +100,7 @@
     fireOnDropChance: 0.3
     shotgunSpreadMultiplier: 1.5
   - type: BallisticAmmoProvider
-    capacity: 8
+    capacity: 10 #matched the size with current mag size
     autoCycle: true
   - type: Wieldable
   - type: ContainerContainer

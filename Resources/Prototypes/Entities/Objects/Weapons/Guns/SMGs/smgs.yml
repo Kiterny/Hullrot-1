@@ -395,7 +395,7 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 7
+    fireRate: 8 #this weapon is currently given to sheriff so it should be sligly better
     minAngle: 1
     maxAngle: 6
     angleIncrease: 1.5

@@ -192,4 +192,10 @@
   outputs:
     SpeedLoaderMagnum: 1
 
-
+- type: factoryRecipe
+  id: FabricateMagazineCaselessRifle
+  name: 9x39 Caseless Magazine
+  inputs:
+    Steel: 3
+  outputs:
+    MagazineCaselessRifle: 1

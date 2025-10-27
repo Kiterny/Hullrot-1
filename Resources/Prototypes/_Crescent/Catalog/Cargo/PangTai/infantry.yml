@@ -94,7 +94,7 @@
     sprite: _Crescent/Objects/Weapons/Guns/railgun.rsi
     state: icon
   product: CratePangtaiLancer
-  cost: 50000 
+  cost: 40000 #50K price is reasonable to extent but compare to alternatives its over priced - if it gets used more price can be adjusted
   category: cargoproduct-category-name-military
   group: pangtai
 
