@@ -111,7 +111,7 @@
   result: MagazineCaselessRifle
   completetime: 1
   materials:
-    Steel: 300
+    Steel: 400
     
 - type: latheRecipe
   id: MagazineCaselessRifleShort
@@ -125,9 +125,9 @@
   result: Magazine6x24mmShock
   completetime: 1
   materials:
-    Steel: 600
-    Plastic: 600
-    Plasma: 500
+    Steel: 400
+    Plastic: 500 
+    Plasma: 200
 
 - type: latheRecipe
   id: Magazine6x24mmIncendiary  
@@ -143,8 +143,8 @@
   completetime: 1
   materials:
     Steel: 400
-    Plastic: 600
-    Uranium: 800
+    Plastic: 500
+    Uranium: 500
 
 - type: latheRecipe
   id: Magazine6x24mmConcentrated 
@@ -153,7 +153,7 @@
   materials:
     Steel: 400
     Plastic: 150
-    Uranium: 500
+    Uranium: 200
 
 - type: latheRecipe
   id: Magazine6x24mmCharge
@@ -161,8 +161,8 @@
   completetime: 1
   materials:
     Steel: 400
-    Plastic: 100
-    Uranium: 300
+    Plastic: 300
+    Plasma: 200
 
 - type: latheRecipe
   id: CartridgeRailgun15mmAP

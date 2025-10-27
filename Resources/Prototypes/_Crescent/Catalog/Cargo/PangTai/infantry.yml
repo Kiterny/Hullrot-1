@@ -94,7 +94,7 @@
     sprite: _Crescent/Objects/Weapons/Guns/railgun.rsi
     state: icon
   product: CratePangtaiLancer
-  cost: 45000 #no one really uses railguns but hey, its not bad either. High cost tho. - so i lowerd it a bit.
+  cost: 40000 #no one really uses railguns but hey, its not bad either. High cost tho. - so i lowerd it.
   category: cargoproduct-category-name-military
   group: pangtai
 
@@ -124,7 +124,7 @@
     sprite: _Crescent/Objects/Weapons/Guns/spear.rsi
     state: icon
   product: CratePangtaiSpear
-  cost: 45000
+  cost: 40000 # lowering this price as well - to make buying this more reasonable. Its still 5K more then shi
   category: cargoproduct-category-name-military
   group: pangtai
 
