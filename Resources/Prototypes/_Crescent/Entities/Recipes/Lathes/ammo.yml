@@ -114,6 +114,13 @@
     Steel: 300
 
 - type: latheRecipe
+  id: MagazineCaselessRifle
+  result: MagazineCaselessRifle
+  completetime: 1
+  materials:
+    Steel: 400
+
+- type: latheRecipe
   id: Magazine6x24mmShock 
   result: Magazine6x24mmShock
   completetime: 1
