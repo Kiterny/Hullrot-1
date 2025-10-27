@@ -105,14 +105,7 @@
   completetime: 1
   materials:
     Steel: 900
-    
-- type: latheRecipe
-  id: MagazineCaselessRifle
-  result: MagazineCaselessRifle
-  completetime: 1
-  materials:
-    Steel: 400
-    
+
 - type: latheRecipe
   id: MagazineCaselessRifleShort
   result: MagazineCaselessRifleShort
@@ -165,12 +158,13 @@
     Plasma: 100
 
 - type: latheRecipe
-  id: CartridgeRailgun15mmAP
+  id: CartridgeRailgun15mmAP # Made 15mm more affordable in hopes that someone will use it. previous price was 1.5x . (DU was 2x price of AP)
   result: CartridgeRailgun15mmAP
   completetime: 1
   materials:
     Steel: 100
-    Uranium: 150
+    Uranium: 100
+    Plastic: 25
     #tungston if added - possibly replacing Uranium
 
 - type: latheRecipe
@@ -179,7 +173,8 @@
   completetime: 1
   materials:
     Steel: 200
-    Uranium: 300
+    Uranium: 200 
+    Plastic: 25
     #tungston if added - possibly replacing Uranium
 
 - type: latheRecipe
@@ -188,7 +183,8 @@
   completetime: 1
   materials:
     Steel: 500
-    Uranium: 600
+    Uranium: 400
+    Plastic: 100
     #tungston if added - possibly replacing Uranium
 
 - type: latheRecipe
@@ -196,8 +192,9 @@
   result: MagazineRailgun15mmDU
   completetime: 1
   materials:
-    Steel: 700
-    Uranium: 1200
+    Steel: 900
+    Uranium: 800
+    Plastic: 100
     #tungston if added - possibly replacing Uranium
 
 # 4 GAUGE SHELLS
