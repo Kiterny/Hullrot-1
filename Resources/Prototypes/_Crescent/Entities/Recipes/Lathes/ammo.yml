@@ -121,7 +121,7 @@
     Steel: 200
 
 - type: latheRecipe
-  id: Magazine6x24mmShock #this one is none harm option
+  id: Magazine6x24mmShock 
   result: Magazine6x24mmShock
   completetime: 1
   materials:
@@ -129,7 +129,7 @@
     Plastic: 100
 
 - type: latheRecipe
-  id: Magazine6x24mmIncendiary  # 15heat 10pierce
+  id: Magazine6x24mmIncendiary  
   result: Magazine6x24mmIncendiary
   completetime: 1
   materials:
@@ -137,7 +137,7 @@
     Plastic: 300
 
 - type: latheRecipe 
-  id: Magazine6x24mmIon  #this amo is the best when fighting any armored person
+  id: Magazine6x24mmIon  
   result: Magazine6x24mmIon
   completetime: 1
   materials:
@@ -145,7 +145,7 @@
     Plastic: 600
 
 - type: latheRecipe
-  id: Magazine6x24mmConcentrated #main 6x24 +
+  id: Magazine6x24mmConcentrated 
   result: Magazine6x24mmConcentrated
   completetime: 1
   materials:
@@ -153,7 +153,7 @@
     Plastic: 150
 
 - type: latheRecipe
-  id: Magazine6x24mmCharge #main 6x24
+  id: Magazine6x24mmCharge
   result: Magazine6x24mmCharge
   completetime: 1
   materials:
