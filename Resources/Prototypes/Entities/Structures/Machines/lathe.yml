@@ -1559,6 +1559,29 @@
     - ClothingOuterWinterSci
     - ClothingOuterWinterRobo
     - ClothingOuterWinterSec
+    #syndie drip
+    - ClothingHeadHatCentcomcap
+    - ClothingHeadHatCentcom
+    - ClothingUniformJumpsuitCentcomAgent
+    - ClothingUniformJumpsuitCentcomFormal
+    - ClothingUniformJumpskirtCentcomFormalDress
+    - ClothingUniformJumpsuitCentcomOfficer
+    - ClothingUniformJumpsuitCentcomOfficial
+    - ClothingHeadHatSyndieMAA
+    - ClothingHeadHatSyndie
+    - ClothingUniformJumpsuitOperative
+    - ClothingUniformJumpskirtOperative
+    - ClothingUniformJumpsuitSyndieFormal
+    - ClothingUniformJumpskirtSyndieFormalDress
+    - ClothingHeadPyjamaSyndicateBlack
+    - ClothingUniformJumpsuitPyjamaSyndicateBlack
+    - ClothingHeadPyjamaSyndicatePink
+    - ClothingUniformJumpsuitPyjamaSyndicatePink
+    - ClothingHeadPyjamaSyndicateRed
+    - ClothingUniformJumpsuitPyjamaSyndicateRed
+    - ClothingOuterWinterCentcom
+    - ClothingOuterWinterSyndie
+    - ClothingOuterWinterSyndieCap
     # Ties
     - ClothingNeckTieRed
     - ClothingNeckTieDet
@@ -1582,30 +1605,6 @@
     - CarpetPurple
     - CarpetCyan
     - CarpetWhite
-  - type: EmagLatheRecipes
-    emagStaticRecipes:
-    - ClothingHeadHatCentcomcap
-    - ClothingHeadHatCentcom
-    - ClothingUniformJumpsuitCentcomAgent
-    - ClothingUniformJumpsuitCentcomFormal
-    - ClothingUniformJumpskirtCentcomFormalDress
-    - ClothingUniformJumpsuitCentcomOfficer
-    - ClothingUniformJumpsuitCentcomOfficial
-    - ClothingHeadHatSyndieMAA
-    - ClothingHeadHatSyndie
-    - ClothingUniformJumpsuitOperative
-    - ClothingUniformJumpskirtOperative
-    - ClothingUniformJumpsuitSyndieFormal
-    - ClothingUniformJumpskirtSyndieFormalDress
-    - ClothingHeadPyjamaSyndicateBlack
-    - ClothingUniformJumpsuitPyjamaSyndicateBlack
-    - ClothingHeadPyjamaSyndicatePink
-    - ClothingUniformJumpsuitPyjamaSyndicatePink
-    - ClothingHeadPyjamaSyndicateRed
-    - ClothingUniformJumpsuitPyjamaSyndicateRed
-    - ClothingOuterWinterCentcom
-    - ClothingOuterWinterSyndie
-    - ClothingOuterWinterSyndieCap
   - type: MaterialStorage
     whitelist:
       tags:
