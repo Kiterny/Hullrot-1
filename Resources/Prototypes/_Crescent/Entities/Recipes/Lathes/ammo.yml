@@ -150,7 +150,7 @@
     Plasma: 100
 
 - type: latheRecipe
-  id: CartridgeRailgun15mmAP # Made 15mm more affordable in hopes that someone will use it. previous price was 1.5x . (DU was 2x price of AP)
+  id: CartridgeRailgun15mmAP # Made 15mm more affordable in hopes that someone will use it. previous price was 1.5x . (DU is 2x price of AP)
   result: CartridgeRailgun15mmAP
   completetime: 1
   materials:
