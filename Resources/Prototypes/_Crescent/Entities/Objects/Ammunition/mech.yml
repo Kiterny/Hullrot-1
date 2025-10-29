@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 25 #Dummy but holy shit these are massive
+        harmorPenetration: 10
     ignoreWeaponGrid: false
 
 - type: entity
@@ -44,10 +45,11 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 30
-        Structural: 10
+        Piercing: 60
+        Structural: 50
     harmorPenetration: 5
 
+#I have struggled with the 1g and 4g because after all they are shotguns so they should be strong at close range.
 - type: entity
   id: ExosuitAutoshotgunPelletSpread
   categories: [ HideSpawnMenu ]
@@ -70,9 +72,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
-        Structural: 20
-    harmorPenetration: 15
+        Piercing: 75
+        Structural: 200
+    harmorPenetration: 10
 
 - type: entity
   id: ExosuitAutopuntgunPelletSpread
@@ -117,7 +119,7 @@
     damage:
       types:
         Heat: 35
-        Structural: 30
+        Structural: 50
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default

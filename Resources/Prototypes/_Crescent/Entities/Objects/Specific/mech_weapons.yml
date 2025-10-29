@@ -212,7 +212,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: rifle
   - type: Gun
-    fireRate: 4 #buffed this to counter act its being weak but is one of the more streamline weapons and you are limited to 100 shots so you arent like just spamming it.
+    fireRate: 4.5 #buffed this to counter act its being weak but is one of the more streamline weapons and you are limited to 100 shots so you arent like just spamming it.
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -271,7 +271,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: Minigun
   - type: Gun
-    fireRate: 8
+    fireRate: 9
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -279,7 +279,7 @@
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMechLightRifle
-    fireCost: 25 
+    fireCost: 75
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -349,15 +349,18 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: autoshotgun
   - type: Gun
-    fireRate: 1.0
+    fireRate: 0.8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
+  - type: Battery
+    maxCharge: 300
+    startingCharge: 300
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitAutoshotgunPelletSpread
-    fireCost: 75
+    fireCost: 150
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -381,9 +384,12 @@
       - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
+  - type: Battery
+    maxCharge: 150
+    startingCharge: 150
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitAutopuntgunPelletSpread
-    fireCost: 75
+    fireCost: 150
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -401,7 +407,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: grenadelauncher
   - type: Gun
-    fireRate: 1
+    fireRate: 0.8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -437,11 +443,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
   - type: Battery
-    maxCharge: 900
-    startingCharge: 900
+    maxCharge: 1125
+    startingCharge: 1125
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitPlasmaBoltLight
-    fireCost: 300
+    fireCost: 375
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
