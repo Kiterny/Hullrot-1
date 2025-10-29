@@ -28,7 +28,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 95 #Dummy but holy shit these are massive
+        Piercing: 90 #Dummy but holy shit these are massive
         Structural: 80
     ignoreWeaponGrid: false
 
@@ -45,6 +45,7 @@
     damage:
       types:
         Piercing: 30
+        Structural: 10
     harmorPenetration: 5
 
 - type: entity
@@ -70,8 +71,8 @@
     damage:
       types:
         Piercing: 20
-        Structural: 10
-    harmorPenetration: 20
+        Structural: 20
+    harmorPenetration: 15
 
 - type: entity
   id: ExosuitAutopuntgunPelletSpread
@@ -83,8 +84,8 @@
     count: 3
     spread: 15
 - type: entity
-  id: ExosuitPlasmaBoltLight
-  name: plasma bolt
+  id: BulletGrenadeBlast37mm
+  name: 37mm grenade blast
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

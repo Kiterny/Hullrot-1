@@ -517,8 +517,8 @@
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_laser
 
-- type: entity
-  id: WeaponMechCombatPlasmaCannon
+- type: entity   #currently unbtainable and Should probably be made to only work with heavy mech that DSM doesnt have
+  id: WeaponMechCombatPlasmaCannon 
   name: IRM 'Judgement' 600c exosuit plasma cannon
   description: Physical proof of the Imperial industry taken form in an experimental exosuit-sized plasma cannon linked to a mech power supply. Through cleverly designed capacitors, and cycling heat-banks, it is able to fire agitated plasma hot enough to burn through military hulls but is liable to completely drain its power supply with even sparse usage.
   suffix: Mech Weapon, Gun, Combat, Plasma Cannon, Medium, MediumMechEquipment, Energy Weapon
