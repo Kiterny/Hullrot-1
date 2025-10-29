@@ -47,7 +47,6 @@ public sealed partial class MechSystem : SharedMechSystem
         base.Initialize();
 
         SubscribeLocalEvent<MechComponent, InteractUsingEvent>(OnInteractUsing);
-		SubscribeLocalEvent<MechComponent, EmpPulseEvent>(OnEmpPulse);
         SubscribeLocalEvent<MechComponent, EntInsertedIntoContainerMessage>(OnInsertBattery);
         SubscribeLocalEvent<MechComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<MechComponent, GetVerbsEvent<AlternativeVerb>>(OnAlternativeVerb);
