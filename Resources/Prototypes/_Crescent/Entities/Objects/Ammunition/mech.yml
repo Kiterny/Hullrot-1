@@ -7,8 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 75 #Dummy but holy shit these are massive
-        Structural: 60
+        Piercing: 25 #Dummy but holy shit these are massive
     ignoreWeaponGrid: false
 
 - type: entity
@@ -45,10 +44,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 40
-        Structural: 80
-    harmorPenetration: 30
-    stoppingPower: 6
+        Piercing: 30
+    harmorPenetration: 5
 
 - type: entity
   id: ExosuitAutoshotgunPelletSpread
@@ -72,10 +69,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 45
-        Structural: 100
-    harmorPenetration: 40
-    stoppingPower: 7
+        Piercing: 20
+        Structural: 10
+    harmorPenetration: 20
 
 - type: entity
   id: ExosuitAutopuntgunPelletSpread
@@ -86,6 +82,25 @@
     proto: PelletShotgun
     count: 3
     spread: 15
+- type: entity
+  id: ExosuitPlasmaBoltLight
+  name: plasma bolt
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    damage:
+      types:
+        Blunt: 5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 3
+    intensitySlope: 3 
+    totalIntensity: 55
+    maxTileBreak: 0
+
 
 - type: entity
   id: ExosuitPlasmaBoltLight
@@ -100,18 +115,15 @@
   - type: Projectile
     damage:
       types:
-        Heat: 40
-        Radiation: 5
-        Structural: 60
-    harmorPenetration: 60
-    stoppingPower: 6
+        Heat: 35
+        Structural: 30
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 300
-    intensitySlope: 100
-    totalIntensity: 300
-    maxTileBreak: 2
+    maxIntensity: 10
+    intensitySlope: 6
+    totalIntensity: 20
+    maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: Orange
@@ -135,16 +147,13 @@
     damage:
       types:
         Heat: 70
-        Radiation: 30
-        Structural: 300
-    harmorPenetration: 80
-    stoppingPower: 8
+        Structural: 80
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
     maxIntensity: 1500
     intensitySlope: 300
-    totalIntensity: 1500
+    totalIntensity: 700
     maxTileBreak: 4
   - type: PointLight
     radius: 3.5
