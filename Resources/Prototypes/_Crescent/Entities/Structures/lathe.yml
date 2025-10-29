@@ -578,7 +578,7 @@
       - WeaponMechCombatImperialSMG
       - WeaponMechCombatImperialAutolaser
       - WeaponMechCombatPlasmaRifle
-      - WeaponMechCombatPlasmaCannon
+      #- WeaponMechCombatPlasmaCannon - deemed too powerful for general fabrication might be readded later. 
       - WeaponLightMachineGunDSMDominion
       - WeaponShotgunReno
       - WeaponRifleDSMLegionnaire

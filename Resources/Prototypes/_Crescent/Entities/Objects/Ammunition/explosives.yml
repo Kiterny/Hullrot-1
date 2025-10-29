@@ -1182,14 +1182,14 @@
   - type: Explosive
     explosionType: Thermobaric
     maxIntensity: 137.5
-    intensitySlope: 2.5
-    totalIntensity: 300
+    intensitySlope: 5
+    totalIntensity: 200
     maxTileBreak: 5
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 40
+    rotationSpeed: 30
     acceleration: 25
     topSpeed: 125

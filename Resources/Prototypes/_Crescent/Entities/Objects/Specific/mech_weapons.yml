@@ -101,7 +101,7 @@
   id: WeaponMechCombatTaikotyo
   name: SHI shoulder-mounted 'Taikotyo' missile system
   description: Bolted onto a medium-class exosuit's shoulder, this missile system fires high-explosive payloads with an inbuilt tracking system that seek out other ships in the area.
-  suffix: Mech Weapon, Gun, Combat, Light Missile
+  suffix: Mech Weapon, Gun, Combat, Light Missile, medium, MediumMechEquipment
   parent: [ BaseMechWeaponRange, MediumMechEquipment ]
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
       path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletRocketSmart
-    fireCost: 25
+    fireCost: 1500
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -127,7 +127,7 @@
   id: WeaponMechSword
   parent: [ BaseMechWeaponMelee, ScoutMechEquipment ]
   name: SHI LvR-200 exosuit-mounted plasteel blade
-  suffix: Mech Weapon, Melee, Combat
+  suffix: Mech Weapon, Melee, Combat, Light, ScoutMechEquipment
   description: Developed as a basic weapons system for lighter mechsuits, a plasteel blade at the end of a hydraulics-based limb. As simple as it gets.
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
   id: WeaponMechPlasmaSword
   parent: [ BaseMechWeaponMelee, ScoutMechEquipment ]
   name: SHI LvP-300 exosuit-mounted plasma blade
-  suffix: Mech Weapon, Melee, Combat
+  suffix: Mech Weapon, Melee, Combat, Light, ScoutMechEquipment
   description: Developed primarily for Scout-class exosuits, the LvP-300 is a direct successor to the LvR-200 exosuit sword model. Constructed with a plasma-alloy high-friction blade, it allows for thermic damage previously unattainable by previous models.
   components:
   - type: Sprite
@@ -179,7 +179,7 @@
   id: WeaponMechMaul
   parent: [ BaseMechWeaponMelee, ScoutMechEquipment ]
   name: IRC exosuit-mounted plasteel maul
-  suffix: Mech Weapon, Melee, Combat
+  suffix: Mech Weapon, Melee, Combat, Light, ScoutMechEquipment
   description: Made by the Iron Ring Company primarily for the salvager market, the plasteel maul comes in handy for breaking down both bodily autonomy and scrap salvage, usable as both a melee weapon and a salvaging tool.
   components:
   - type: Sprite
@@ -205,14 +205,14 @@
   id: WeaponMechCombatLightRifle
   name: SHI 'Rapture' 30mm ballistic autorifle
   description: An exosuit-mounted autorifle firing depleted uranium rounds. Developed by Shinohara Heavy Industries and sold en masse. The most basic mech weapon that can be found on the market.
-  suffix: Mech Weapon, Gun, Combat, Rifle
+  suffix: Mech Weapon, Gun, Combat, Rifle, Light, ScoutMechEquipment
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: rifle
   - type: Gun
-    fireRate: 3.5
+    fireRate: 4 #buffed this to counter act its being weak but is one of the more streamline weapons and you are limited to 100 shots so you arent like just spamming it.
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -220,7 +220,7 @@
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMechLightRifle
-    fireCost: 15
+    fireCost: 75
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -231,8 +231,8 @@
 - type: entity
   id: WeaponMechSepulchreGatling
   name: IRM 'Dirge' 11mm Burst Chaingun
-  description: A gilded weapon commissioned by the noble houses to honor a fallen ritter champion. When this nitrogen-cooled chaingun speaks, you listen.
-  suffix: Mech Weapon, Gun, Combat, Chaingun
+  description: A gilded weapon commissioned by the noble houses to honor a fallen ritter champion. When this nitrogen-cooled chaingun speaks, you listen. #when its cooling your strike
+  suffix: Mech Weapon, Gun, Combat, Chaingun, Medium, MediumMechEquipment
   parent: [ BaseMechWeaponRange, MediumMechEquipment ]
   components:
   - type: Sprite
@@ -240,8 +240,8 @@
     state: chaingun
   - type: Gun
     shotsPerBurst: 25
-    burstFireRate: 30
-    burstCooldown: 4
+    burstFireRate: 15 
+    burstCooldown: 5 # time between bursts cuz I didnt want to butchere this weapon extremely strong but has to cool down
     fireRate: 20
     minAngle: 6
     maxAngle: 30
@@ -252,26 +252,26 @@
       path: /Audio/Weapons/Guns/Gunshots/gau.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: CartridgeHeavyPistol
-    fireCost: 15
+    fireCost: 30 #6 bursts of 25 shots = 150 shots total
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
     tags:
     - MediumMechEquipment
 
-
+#pta stuff wasnt balanced - dont make it purchasable unless you balance it.
 - type: entity
   id: WeaponMechCombatGatling
   name: PTA 'Loyal' 30mm gatling exosuit chaingun
   description: An exosuit-mounted gatling cannon firing depleted uranium rounds. Developed by Pang Tai Arms and sold en masse. A heavier, faster version of the standard-issue autorifle.
-  suffix: Mech Weapon, Gun, Combat, Gatling
+  suffix: Mech Weapon, Gun, Combat, Gatling, Medium, MediumMechEquipment
   parent: [ BaseMechWeaponRange, MediumMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: Minigun
   - type: Gun
-    fireRate: 7
+    fireRate: 8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -279,7 +279,7 @@
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMechLightRifle
-    fireCost: 5
+    fireCost: 25 
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -290,7 +290,7 @@
   id: WeaponMechCombatHeavyRifle
   name: PTA 'Sovereign' 47mm exosuit slugspitter
   description: An exosuit-mounted heavy machine gun firing depleted uranium rounds. Developed by Pang Tai Arms and sold en masse. A heavier version of the standard-issue autorifle.
-  suffix: Mech Weapon, Gun, Combat, Rifle
+  suffix: Mech Weapon, Gun, Combat, Rifle, Medium, MediumMechEquipment
   parent: [ BaseMechWeaponRange, MediumMechEquipment ]
   components:
   - type: Sprite
@@ -305,7 +305,7 @@
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMechHeavyRifle
-    fireCost: 25
+    fireCost: 50
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -316,7 +316,7 @@
   id: WeaponMechCombatAutocannon
   name: PTA 'Skysplitter' 90mm exosuit autocannon
   description: An exosuit-mounted heavy machine gun firing depleted uranium rounds. Developed by Pang Tai Arms and sold en masse. A heavier version of the standard-issue autorifle.
-  suffix: Mech Weapon, Gun, Combat, Cannon
+  suffix: Mech Weapon, Gun, Combat, Cannon, Heavy, SiegeMechEquipment
   parent: [ BaseMechWeaponRange, SiegeMechEquipment ]
   components:
   - type: Sprite
@@ -342,14 +342,14 @@
   id: WeaponMechCombatAutoshotgun
   name: SHI 'Ogawa' 4g exosuit autoshotgun
   description: An exosuit weapons system developed for Medium to Scout-type mechsuits by Shinohara Heavy Industries, meant for sweeping crowd control or shooting the locks off doors.
-  suffix: Mech Weapon, Gun, Combat, Autoshotgun
+  suffix: Mech Weapon, Gun, Combat, Autoshotgun, Light, ScoutMechEquipment
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: autoshotgun
   - type: Gun
-    fireRate: 1.5
+    fireRate: 1.0
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -357,7 +357,7 @@
       path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitAutoshotgunPelletSpread
-    fireCost: 20
+    fireCost: 75
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -375,7 +375,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: autopuntgun
   - type: Gun
-    fireRate: 0.9
+    fireRate: 0.8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -383,7 +383,7 @@
       path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitAutopuntgunPelletSpread
-    fireCost: 25
+    fireCost: 75
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -394,22 +394,25 @@
   id: WeaponMechCombatGrenadeLauncher
   name: IRC 'Mauler' 37mm exosuit grenade launcher system
   description: An exosuit weapons system developed for Scout to Medium-type mechsuits by the Iron Ring Company designed for crowd and room control. Watch your fire.
-  suffix: Mech Weapon, Gun, Combat, Grenade Launcher
+  suffix: Mech Weapon, Gun, Combat, Grenade Launcher, Light, ScoutMechEquipment
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: grenadelauncher
   - type: Gun
-    fireRate: 0.6
+    fireRate: 1
     selectedMode: FullAuto
     availableModes:
       - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
+  - type: Battery
+    maxCharge: 900
+    startingCharge: 900
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletGrenadeBlast
-    fireCost: 50
+    proto: BulletGrenadeBlast37mm
+    fireCost: 300
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -420,25 +423,25 @@
   id: WeaponMechCombatPlasmaRifle
   name: IRM 'Verdict' 250c exosuit plasma repeater
   description: An arm-mounted exosuit sized plasma repeater that draws from the mech connected power supply. Developed by the Scribes Guild as one of their first projects in understanding NanoTrasens technology, producing a weapon beloved by the Imperial Cavalry for battlefields despite its often wasteful power use.
-  suffix: Mech Weapon, Gun, Combat, Plasma Repeater
+  suffix: Mech Weapon, Gun, Combat, Plasma Repeater, Light, ScoutMechEquipment, Energy Weapon,
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: plasmarifle
   - type: Gun
-    shotsPerBurst: 2
-    burstFireRate: 4
-    burstCooldown: 0.75
-    fireRate: 0.75
-    selectedMode: Burst
+    fireRate: 0.8
+    selectedMode: FullAuto
     availableModes:
-      - Burst
+      - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
+  - type: Battery
+    maxCharge: 900
+    startingCharge: 900
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitPlasmaBoltLight
-    fireCost: 10
+    fireCost: 300
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -449,7 +452,7 @@
   id: WeaponMechCombatImperialSMG
   name: IRM 'Errant' exosuit 11mm submachine-gun
   description: An Exo-mounted SMG using infantry caliber munitions, the Errant sets itself apart from higher caliber mech weapons by being designed for express anti-personnel duties. While it struggles with heavier armour, its high firerate scythes down infantry for an economical power cost.
-  suffix: Mech Weapon, Gun, Combat, Submachine-gun
+  suffix: Mech Weapon, Gun, Combat, Submachine-gun, Light, ScoutMechEquipment
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
@@ -466,7 +469,7 @@
       path: /Audio/_Crescent/Weapons/Guns/smg_3/smg_gunshot_2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletHeavyPistol
-    fireCost: 2
+    fireCost: 25
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -477,7 +480,7 @@
   id: WeaponMechCombatImperialAutolaser
   name: IRM 'Lumen' 60c exosuit autolaser
   description: An Exo-portable laser gun providing rapid high-power response to spaceborne mechs and ulralight fighters. The Lumen's inbuilt vents dissipate most of the generated heat, but cannot offset the heavy battery cost of sustained fire and will struggle to penetrate ship hull.
-  suffix: Mech Weapon, Gun, Combat, Autolaser
+  suffix: Mech Weapon, Gun, Combat, Autolaser, Light, ScoutMechEquipment, Energy Weapon
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
@@ -492,7 +495,7 @@
       path: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
   - type: HitscanBatteryAmmoProvider
     proto: LumenLaser
-    fireCost: 3
+    fireCost: 25 #high ammunition weapon
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -504,7 +507,6 @@
   damage:
     types:
       Heat: 7
-      Structural: 10
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
@@ -519,8 +521,8 @@
   id: WeaponMechCombatPlasmaCannon
   name: IRM 'Judgement' 600c exosuit plasma cannon
   description: Physical proof of the Imperial industry taken form in an experimental exosuit-sized plasma cannon linked to a mech power supply. Through cleverly designed capacitors, and cycling heat-banks, it is able to fire agitated plasma hot enough to burn through military hulls but is liable to completely drain its power supply with even sparse usage.
-  suffix: Mech Weapon, Gun, Combat, Plasma Cannon
-  parent: [ BaseMechWeaponRange, MediumMechEquipment ]
+  suffix: Mech Weapon, Gun, Combat, Plasma Cannon, Heavy, SiegeMechEquipment
+  parent: [ BaseMechWeaponRange, SiegeMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
@@ -533,13 +535,13 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
   - type: Battery
-    maxCharge: 250
-    startingCharge: 250
+    maxCharge: 1000
+    startingCharge: 1000
   - type: ProjectileBatteryAmmoProvider
     proto: ExosuitPlasmaBoltHeavy
-    fireCost: 50
+    fireCost: 1500 #5 shots
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
     tags:
-    - MediumMechEquipment
+    - SiegeMechEquipment

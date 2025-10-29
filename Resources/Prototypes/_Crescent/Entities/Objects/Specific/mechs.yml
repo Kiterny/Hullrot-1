@@ -38,8 +38,8 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.5
     baseSprintSpeed: 4.5
-    weightlessFriction: 0.4
-    weightlessAcceleration: 0.33
+    weightlessFriction: 0
+    weightlessAcceleration: 0.07
     weightlessModifier: 4.5 # 20ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -110,7 +110,7 @@
     baseWalkSpeed: 1.5
     baseSprintSpeed: 3.5
     weightlessFriction: 0
-    weightlessAcceleration: 0.1
+    weightlessAcceleration: 0.07
     weightlessModifier: 4.75 # 15ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -178,7 +178,7 @@
     baseWalkSpeed: 2.5
     baseSprintSpeed: 4
     weightlessFriction: 0.4
-    weightlessAcceleration: 0.33
+    weightlessAcceleration: 0.07
     weightlessModifier: 6 # 20ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -245,7 +245,7 @@
     baseWalkSpeed: 3.5
     baseSprintSpeed: 5.5
     weightlessFriction: 0.4
-    weightlessAcceleration: 0.4
+    weightlessAcceleration: 0.07
     weightlessModifier: 4 # 20ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -316,7 +316,7 @@
     baseWalkSpeed: 1
     baseSprintSpeed: 1.85
     weightlessFriction: 0
-    weightlessAcceleration: 0.1
+    weightlessAcceleration: 0.07
     weightlessModifier: 5.5 # 10ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -388,7 +388,7 @@
     baseWalkSpeed: 1.5
     baseSprintSpeed: 3.5
     weightlessFriction: 0
-    weightlessAcceleration: 0.15
+    weightlessAcceleration: 0.07
     weightlessModifier: 4.75 # 15ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -473,7 +473,7 @@
     baseWalkSpeed: 2.0
     baseSprintSpeed: 2.5
     weightlessFriction: 0
-    weightlessAcceleration: 0.33
+    weightlessAcceleration: 0.07
     weightlessModifier: 5.35 # 18ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
@@ -539,8 +539,8 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.5
     baseSprintSpeed: 4
-    weightlessFriction: 0.4
-    weightlessAcceleration: 0.33
+    weightlessFriction: 0
+    weightlessAcceleration: 0.07
     weightlessModifier: 6 # 20ish ship speed - weightless speed is influenced by weightlessModifier and base(Walk/Sprint)Speed
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
