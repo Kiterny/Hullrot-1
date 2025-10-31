@@ -102,7 +102,7 @@
     explosionType: Fragmentation
     maxIntensity: 3
     intensitySlope: 3 
-    totalIntensity: 65
+    totalIntensity: 63
     maxTileBreak: 0
 
 
