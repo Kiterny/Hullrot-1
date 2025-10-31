@@ -1,4 +1,4 @@
-- type: entity
+- type: entity #tried my best - in mech has basically same ttk as falin gainst mech
   id: BulletMechLightRifle
   name: bullet (30mm USTF)
   parent: BulletMachineGunVulcan
@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 25 #Dummy but holy shit these are massive
-        harmorPenetration: 10
+        harmorPenetration: 3
     ignoreWeaponGrid: false
 
 - type: entity
@@ -73,7 +73,7 @@
     damage:
       types:
         Piercing: 75
-        Structural: 200
+        Structural: 100
     harmorPenetration: 10
 
 - type: entity
@@ -85,6 +85,7 @@
     proto: PelletShotgun
     count: 3
     spread: 15
+    
 - type: entity
   id: BulletGrenadeBlast37mm
   name: 37mm grenade blast
@@ -101,7 +102,7 @@
     explosionType: Fragmentation
     maxIntensity: 3
     intensitySlope: 3 
-    totalIntensity: 55
+    totalIntensity: 65
     maxTileBreak: 0
 
 
@@ -118,14 +119,14 @@
   - type: Projectile
     damage:
       types:
-        Heat: 35
+        Heat: 40
         Structural: 50
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
     maxIntensity: 10
-    intensitySlope: 6
-    totalIntensity: 20
+    intensitySlope: 3
+    totalIntensity: 10
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5

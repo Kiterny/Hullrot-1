@@ -212,7 +212,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: rifle
   - type: Gun
-    fireRate: 4.5 #buffed this to counter act its being weak but is one of the more streamline weapons and you are limited to 100 shots so you arent like just spamming it.
+    fireRate: 4.0 #buffed this to counter act its being weak but is one of the more streamline weapons and you are limited to 100 shots so you arent like just spamming it.
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -271,7 +271,7 @@
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: Minigun
   - type: Gun
-    fireRate: 9
+    fireRate: 8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -400,14 +400,14 @@
   id: WeaponMechCombatGrenadeLauncher
   name: IRC 'Mauler' 37mm exosuit grenade launcher system
   description: An exosuit weapons system developed for Scout to Medium-type mechsuits by the Iron Ring Company designed for crowd and room control. Watch your fire.
-  suffix: Mech Weapon, Gun, Combat, Grenade Launcher, Light, ScoutMechEquipment
+  suffix: Mech Weapon, Gun, Combat, Grenade Launcher, Light, ScoutMechEquipment, Crowd control,
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Specific/mechaweapons.rsi
     state: grenadelauncher
   - type: Gun
-    fireRate: 0.8
+    fireRate: 1.25
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -418,7 +418,7 @@
     startingCharge: 900
   - type: ProjectileBatteryAmmoProvider
     proto: BulletGrenadeBlast37mm
-    fireCost: 300
+    fireCost: 187.5
   - type: Appearance
   - type: AmmoCounter
   - type: Tag
@@ -429,7 +429,7 @@
   id: WeaponMechCombatPlasmaRifle
   name: IRM 'Verdict' 250c exosuit plasma repeater
   description: An arm-mounted exosuit sized plasma repeater that draws from the mech connected power supply. Developed by the Scribes Guild as one of their first projects in understanding NanoTrasens technology, producing a weapon beloved by the Imperial Cavalry for battlefields despite its often wasteful power use.
-  suffix: Mech Weapon, Gun, Combat, Plasma Repeater, Light, ScoutMechEquipment, Energy Weapon,
+  suffix: Mech Weapon, Gun, Combat, Plasma Repeater, Light, ScoutMechEquipment, Energy Weapon, Direct hit,
   parent: [ BaseMechWeaponRange, ScoutMechEquipment ]
   components:
   - type: Sprite
